@@ -13,7 +13,14 @@ public class Lliurament {
 	private Empleat empleat;
 	private Devolucio devolucio;
 	private ArrayList<Desperfecte> desperfectes;
+	private Reserva reserva;
 	
+	public Reserva getReserva() {
+		return reserva;
+	}
+	public void setReserva(Reserva reserva) {
+		this.reserva = reserva;
+	}
 	//Getters & Setters
 	public Date getData() {
 		return data;
